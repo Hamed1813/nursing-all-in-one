@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "دستیار مطالعه پرستاری",
+    "slug": "nursing-study-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F2EADC",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.alinursing.studyapp"
+    },
+    "android": {
+      "package": "com.alinursing.studyapp",
+      "adaptiveIcon": {
+        "backgroundColor": "#F2EADC",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#1E6B6F"
+        }
+      ]
+    ]
+  }
+}
